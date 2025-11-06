@@ -11,22 +11,6 @@ dataset. What was done?
 
 ---
 
-## Project Structure
-.
-
-├─ data/
-│ ├─ spongebob_episodes.csv # from Kaggle
-│ ├─ spongebob_episodes.json # from Kaggle
-│ ├─ episode_titles_cleaned.csv # created by step 01
-│ └─ generated_titles.csv # created by step 02
-├─ src/
-│ ├─ 01_spongebob_episodes.py # cleaner: builds episode_titles_cleaned.csv
-│ └─ 02_title_gen.py # generator: makes new titles
-└─ README.md
-
-
----
-
 ## Quickstart
 
 ### 0) Setup

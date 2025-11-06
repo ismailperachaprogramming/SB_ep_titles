@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.python-version
+.venv/
+venv/
+env/
+
+# macOS / editors
+.DS_Store
+.vscode/
+.idea/
+
+# Jupyter (if you experiment)
+.ipynb_checkpoints/
+
+# Data outputs
+data/episode_titles_cleaned.csv
+data/generated_titles.csv
+
+# Large/raw data you don’t want to commit by accident
+data/*.csv
+data/*.json
+!data/.gitkeep

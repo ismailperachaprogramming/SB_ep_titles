@@ -2,8 +2,10 @@
 
 Fun data project using the
 [SpongeBob SquarePants Episodes](https://www.kaggle.com/datasets/myticalcat/spongebob-squarepants-episodes-dataset)
-dataset. What was done?
+dataset, where you can generate Spongebob Episode Titles. 
 
+**What was done?
+**
 1. **Cleaned** the CSV/JSON to get a single list of real episode titles.
 2. **Generated** new SpongeBob-style titles using a tiny Markov model +
    some “writer’s room” templates.

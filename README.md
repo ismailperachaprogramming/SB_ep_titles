@@ -13,6 +13,7 @@ dataset. What was done?
 
 ## Project Structure
 .
+
 ├─ data/
 │ ├─ spongebob_episodes.csv # from Kaggle
 │ ├─ spongebob_episodes.json # from Kaggle

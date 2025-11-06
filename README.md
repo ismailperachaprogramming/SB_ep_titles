@@ -1,4 +1,4 @@
-# SpongeBob Episode Title Generator 🧽
+# SpongeBob Episode Title Generator 
 
 Generate silly, SpongeBob-style episode titles from the
 [Kaggle episodes dataset](https://www.kaggle.com/datasets/myticalcat/spongebob-squarepants-episodes-dataset).

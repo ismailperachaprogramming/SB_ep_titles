@@ -225,14 +225,14 @@ def humor_template(used_words: Counter, used_phrases: Counter, no_vs=True, max_t
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--in_csv", default="/Users/ismailperacha/Downloads/clean_titles.csv",
+    ap.add_argument("--in_csv", default="/data/clean_titles.csv",
                     help="Path to clean_titles.csv from 01 script")
     ap.add_argument("--num", type=int, default=20)
     ap.add_argument("--seed", default="")
     ap.add_argument("--temp", type=float, default=0.9)
     ap.add_argument("--max_len", type=int, default=9)
     ap.add_argument("--force_spongebob", action="store_true")
-    ap.add_argument("--out", default="/Users/ismailperacha/Downloads/generated_titles.csv")
+    ap.add_argument("--out", default="/data/generated_titles.csv")
     # Style controls
     ap.add_argument("--use_templates", type=float, default=0.40, help="Chance to use humor template [0-1]")
     ap.add_argument("--no_vs", action="store_true", help="Avoid 'vs' in templates")

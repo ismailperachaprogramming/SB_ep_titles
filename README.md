@@ -39,3 +39,26 @@ python3 src/02_title_gen.py \
   --max_word_repeat 1 \
   --out data/generated_titles.csv
 
+```
+**A Preview of Generated Titles**
+
+Patrick Trains Suds
+Barnacle Makeover
+License to Budget
+Jellyfish Audit
+Mr. Krabs's Bucket Capers
+Underpants Chronicles
+Plankton Learns to Pose
+Tartar Day
+Operation Coupon
+Plankton Trains Mustard
+Patrick Learns to Apologize
+Nautical Pineapple Debacle
+Gary Recycles Plankton
+The Chum Bucket Problems
+SpongeBob Budgets Plankton
+Plankton in the Chum Bucket
+Gary in Rock Bottom
+Gary Fries Clarinet
+Gary's Barnacle Misadventure
+Plankton in Boating School

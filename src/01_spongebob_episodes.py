@@ -45,9 +45,9 @@ def load_titles_from_json(path: str):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--csv", required=True, help="/Users/ismailperacha/Downloads/spongebob_episodes.csv")
-    ap.add_argument("--json", required=True, help="/Users/ismailperacha/Desktop/spongebob_episodes.json")
-    ap.add_argument("--out", default="/Users/ismailperacha/Downloads/episode_titles_cleaned.csv")
+    ap.add_argument("--csv", required=True, help="/data/spongebob_episodes.csv")
+    ap.add_argument("--json", required=True, help="/data/spongebob_episodes.json")
+    ap.add_argument("--out", default="/data/episode_titles_cleaned.csv")
     args = ap.parse_args()
 
     csv_titles  = load_titles_from_csv(args.csv)

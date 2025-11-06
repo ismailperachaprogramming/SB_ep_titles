@@ -42,6 +42,7 @@ python3 src/02_title_gen.py \
 ```
 **A Preview of Generated Titles**
 
+```
 Patrick Trains Suds
 
 Barnacle Makeover
@@ -78,6 +79,6 @@ Gary in Rock Bottom
 
 Gary Fries Clarinet
 
-Gary's Barnacle Misadventure
+Gary's Barnacle Misadventure```
 
 Plankton in Boating School

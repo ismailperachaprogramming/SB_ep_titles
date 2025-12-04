@@ -1,12 +1,12 @@
 # SpongeBob Episode Title Generator 
 
-Generate silly, SpongeBob-style episode titles from the
+Generates silly, SpongeBob-style episode titles from the
 [Kaggle episodes dataset](https://www.kaggle.com/datasets/myticalcat/spongebob-squarepants-episodes-dataset).
 
 **What it does**
-1. **Clean** the Kaggle CSV/JSON into one deduped list of real episode titles.
-2. **Generate** new titles using a tiny 3-gram Markov model + “writer’s room” templates.
-3. **Avoid** copying real titles with a simple similarity check.
+1. **Cleans** the Kaggle CSV/JSON into one deduped list of real episode titles.
+2. **Generates** new titles using a tiny 3-gram Markov model + “writer’s room” templates.
+3. **Avoids** copying real titles with a simple similarity check.
 
 ---
 
